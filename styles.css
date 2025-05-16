@@ -1898,3 +1898,29 @@ specialties-section-inner {
 .specialties-testimonial .testimonial-author-title {
   color: #fff !important;
 }
+/* Make about page text cards black */
+.about-card.role-card,
+.about-card.testimonial-card {
+  background: #18181b !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+
+.about-card.role-card .role-title,
+.about-card.testimonial-card .testimonial-text,
+.about-card.testimonial-card .kind-gradient {
+  color: #fff !important;
+}
+
+.about-card.testimonial-card .kind-gradient {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.3rem;
+  background: linear-gradient(90deg, #7f7fff, #ffb2f7, #ffe600, #7f7fff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
